@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Abhaya Libre';
+}
+body{
+	background-image: linear-gradient(to right,#4776E6,#8E54E9);
+}
+h1{
+	text-align: center;
+	margin-top: 77px; 
+	word-spacing: 4px;
+}
+.main{
+	width: 520px;
+	height: 70vh;
+	position: relative;
+	top: 70px;
+	margin: auto;
+	background-image: linear-gradient(to right,#E55D87,#5FC3E4);
+}
+.head h2{
+	padding-top: 20px;
+}
+.head{
+	text-align: center;
+	margin-top: 30px;
+	word-spacing: 4px;
+}
+.no-outline:focus {
+  outline: none;
+}
+input[type=text]{
+  width:280px;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: yellow;
+  border-radius: 25px;
+  border:none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.image{
+	width: 339px;
+	height: 34vh;
+	border:2px solid white;
+	margin: auto;
+	border-radius: 10px;
+}
+.image img {
+  width: 339px;
+  height: 34vh;
+  object-fit: fill;
+  border-radius: 10px;
+}
+.button{
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+}
+button{
+	padding: 15px;
+	width: 150px;
+	background-image: linear-gradient(to right,#DA22FF,#9733EE);
+	border: none;
+	border-radius: 25px;
+	outline: none;
+	font-size: 20px;
+	font-weight:600;
+}
+button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*© section of the app*/
+.footer-section{
+	position: relative;
+	top:150px;
+	width: 100%;
+	height: 8vh;
+}
+.footer-section .data{
+	text-align: center;
+	margin-top: 80px;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+}
+.footer-section .social-icon{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 15px;
+}

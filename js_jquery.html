@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js_jquery.html</title>
+</head>
+<link rel="stylesheet" type="text/css" href="js_jquery.css">
+<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+<body>
+	<h1>WHATS DOES YOUR NAME SAY ABOUT YOUR PERSONALITY</h1>
+	<div class="main">
+		<div class="head">
+			<h2>ENTER YOUR NAME</h2><br>
+			<input type="text" name="name" id="nameid" class="no-outline">
+		</div>
+		<br>
+		<div class="image">
+			<img src="char.jpg" class="imageChange">
+		</div>
+		<div class="button">
+			<button>Click Me</button>
+		</div>
+	</div>
+	   <!--© section of the app-->
+        <div class="footer-section">
+            <div class="data">
+                © nitinrke01_github
+            </div>
+            <div class="social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>&nbsp&nbsp
+                <a href="#"><i class="fab fa-instagram"></i></a>&nbsp&nbsp
+                <a href="#"><i class="fab fa-twitter"></i></a>&nbsp&nbsp
+                <a href="https://github.com/nitinrke01"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+<script>
+	$('document').ready(function(){
+		$('button').click(function(){
+			const name=$('#nameid').val();
+			if(name!=''){
+			   $('.imageChange').attr('src',`https://joeschmoe.io/api/v1/${name}`)
+			}
+			else{
+				alert('Please Enter Your Name')
+			}
+		});
+	});
+</script>
+</body>
+</html>
